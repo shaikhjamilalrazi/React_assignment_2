@@ -1,0 +1,49 @@
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.form {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.input {
+    flex: 1;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.button {
+    padding: 5px 10px;
+    background: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.taskList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.taskItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.taskText {
+    flex: 1;
+}
+
+.deleteButton {
+    margin-left: 10px;
+    padding: 3px 5px;
+    background: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
